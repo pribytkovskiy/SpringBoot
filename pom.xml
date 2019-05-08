@@ -46,12 +46,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				org.codehaus.cargo
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.cargo</groupId>
 			</plugin>
 		</plugins>
 	</build>
-    <pluginGroups>
-    	<pluginGroup>org.codehaus.cargo</pluginGroup>
-	</pluginGroups>
     <configuration>
         <container>
                 <containerId>tomcat8x</containerId>
