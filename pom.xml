@@ -49,6 +49,13 @@
 			</plugin>
 		</plugins>
 	</build>
+	<display-name>cargo-deploy</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <pluginGroups>
+    	<pluginGroup>org.codehaus.cargo</pluginGroup>
+	</pluginGroups>
     <configuration>
         <container>
                 <containerId>tomcat8x</containerId>
