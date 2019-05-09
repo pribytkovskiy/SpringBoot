@@ -59,8 +59,8 @@
 				    <configuration>
 				        <type>runtime</type>
 				        <properties>
-				            <cargo.remote.username>deployuser</cargo.remote.username>
-				            <cargo.remote.password>deployuser</cargo.remote.password>
+				            <cargo.remote.username>admin</cargo.remote.username>
+				            <cargo.remote.password>admin</cargo.remote.password>
 				            <cargo.tomcat.manager.url>http://84.0.0.41:8080/manager/text
 				              </cargo.tomcat.manager.url>
 				        </properties>
